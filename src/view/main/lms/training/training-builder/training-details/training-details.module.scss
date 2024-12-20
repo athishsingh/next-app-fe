@@ -1,0 +1,40 @@
+.training__details-main-con,
+.training__details-shrimmer-con {
+    max-width: 800px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+
+    .training__img {
+        border-radius: 100%;
+        object-fit: cover;
+    }
+
+    .media__picker-header {
+        font-weight: 500;
+        font-size: 14px;
+        color: var(--text-dark-color);
+    }
+
+    .media__picker-desc {
+        font-weight: 400;
+        font-size: 12px;
+        color: #5C5E63;
+    }
+
+    .header__text {
+        font-weight: 500;
+        font-size: 14px;
+        color: var(--text-black-color);
+
+    }
+
+    .desc__text {
+        font-weight: 400;
+        font-size: 12px;
+        color: #889096;
+    }
+}

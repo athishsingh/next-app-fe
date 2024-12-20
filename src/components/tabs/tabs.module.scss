@@ -1,0 +1,31 @@
+.link__con {
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+    border-bottom: 1px solid transparent;
+    transition: border-color 200ms ease-in-out;
+
+    &.__active {
+        border-color: var(--active-color);
+    }
+}
+
+.link__text {
+    font-size: 14px;
+    line-height: 18px;
+    transition: color 200ms ease-in-out;
+    text-wrap: nowrap;
+
+    &.__active {
+        color: var(--active-color);
+    }
+}
+
+
+.link__con:hover {
+    color: var(--active-color);
+}

@@ -1,0 +1,52 @@
+.live__session-main-con {
+    .filters__con {
+        padding: 10px 12px;
+        background-color: #F8F8FA;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid var(--border-color);
+        gap: 20px;
+
+        .filter__text {
+            font-weight: 400;
+            font-size: 14px;
+            color: #717171;
+        }
+    }
+
+    .users__main-con {
+        padding: 18px 12px;
+        border-bottom: 1px solid var(--border-color);
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        justify-content: space-between;
+
+        .sub_con {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+
+            .attending,
+            .not__attending {
+                font-weight: 400;
+                font-size: 14px;
+                color: #34C759;
+            }
+
+            .not__attending {
+                color: #FF3B30
+            }
+
+            .info__text {
+                font-weight: 400;
+                font-size: 12px;
+                color: #8E8EA9;
+            }
+        }
+    }
+
+    .users__main-con:last-child {
+        border-bottom: none;
+    }
+}

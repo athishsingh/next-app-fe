@@ -1,0 +1,22 @@
+.general__main-con {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 140px;
+    text-wrap: nowrap;
+    .header__text {
+        font-size:0.875rem;
+        font-weight: 500;
+        color:#09090b;
+        overflow: hidden;
+        text-wrap: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .subtext {
+        font-weight: 500;
+        color: #717171;
+        color: #8e8ea9;
+        font-size: 0.75rem;
+    }
+}

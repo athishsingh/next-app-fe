@@ -1,0 +1,31 @@
+.page__not-found-main-con {
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+    flex-direction: column;
+
+
+    .header__text {
+        color: var(--text-black-color);
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    .description__text {
+        color: var(--text-black-color);
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .button__parent-con {
+        width: 361px;
+        margin-top: 12px;
+    }
+
+    .dummy__con {
+        height: 40px;
+    }
+}

@@ -1,0 +1,43 @@
+.session__material-main-con {
+    padding: 8px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+
+    .name {
+        width: 250px;
+        font-weight: 400;
+        font-size: 12px;
+        color: var(--text-primary-color);
+        text-wrap: nowrap;
+        text-overflow: ellipsis;
+        word-break: break-all;
+        overflow: hidden;
+    }
+
+    .divider__con {
+        width: 1px;
+        height: 12px;
+        background-color: var(--border-color);
+    }
+
+    .format,
+    .length {
+        font-weight: 400;
+        font-size: 10px;
+        color: var(--text-primary-color);
+    }
+
+    .delete__icon {
+        padding: 6px;
+        border-radius: 100%;
+        border: 1px solid var(--border-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--text-primary-color);
+    }
+}

@@ -1,0 +1,19 @@
+.training__assessment-session-card {
+    padding: 14px 44px;
+    color: #09090B;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
+
+
+    &.selected {
+        background-color: #FBEBE3;
+        color: #D26300;
+    }
+
+    &:hover {
+        background-color: #FBEBE3;
+        color: #D26300;
+    }
+}

@@ -1,0 +1,58 @@
+.header__text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #09090B;
+}
+
+.sub__text {
+    font-weight: 400;
+    font-size: 12px;
+    color: #8E8EA9;
+}
+
+.info__subtext {
+    font-weight: 400;
+    font-size: 12px;
+    color: #8E8EA9;
+}
+
+.training__user-info-component {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 280px;
+
+    .user__img {
+        border: 1px solid var(--border-color);
+        border-radius: 100%;
+    }
+}
+
+.store__main-con,
+.region-cell,
+.marketing-cell,
+.hire__date-cell {
+    user-select: none;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.not__enrolled-text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #8E8EA9;
+}
+
+.enrolled__text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #34C759;
+}
+
+.enrolled__date-text {
+    font-weight: 400;
+    font-size: 12px;
+    color: #8E8EA9;
+}

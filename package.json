@@ -1,0 +1,38 @@
+{
+  "name": "nymbleup-next-fe",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "rm -rf .next && rm -rf node_modules && yarn  && next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "^2.1.7",
+    "axios": "^1.7.7",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^11.11.9",
+    "global": "^4.4.0",
+    "lottie-react": "^2.4.0",
+    "next": "14.2.14",
+    "nextjs-toploader": "^3.7.15",
+    "react": "^18.2.0",
+    "react-calendar": "^5.0.0",
+    "react-date-range": "^2.0.1",
+    "react-dom": "^18",
+    "sass": "^1.79.4",
+    "time-picker-scroll": "0.1.2",
+    "vercel": "^39.2.2",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-date-range": "^1.4.9",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.14",
+    "typescript": "^5"
+  }
+}

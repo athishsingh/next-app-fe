@@ -1,0 +1,25 @@
+.course__title-text {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--text-black-color);
+  }
+  .form-item {
+    margin-bottom: 20px;
+  }
+  
+  .category-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-details {
+    font-size: 1.1rem;
+    display: flex;
+    gap: 10px;
+    color: #555;
+  }
+  
+  .form-details span {
+    font-weight: normal;
+  }

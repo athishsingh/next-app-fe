@@ -1,0 +1,173 @@
+.library-container {
+  padding: 16px;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: none;
+  border: none;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 4px;
+
+  &:hover {
+    color: #d26300;
+  }
+}
+
+.libraryContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px; /* Add appropriate padding */
+  border-bottom: 1px solid #e0e0e0; /* Optional: For the separator line */
+  background-color: #f9f9f9; /* Optional: Background color to match the header style */
+}
+
+.header {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000; /* Text color */
+}
+
+.iconButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-group-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbebe3;
+  border-radius: 30px;
+  padding: 5px;
+  border: 1px solid #ebeef5;
+  height: 40px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px; /* Adds spacing between buttons */
+}
+
+.btn-class {
+  border-radius: 25px;
+  padding: 5px 20px;
+  color: #e07a2f;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  cursor: pointer;
+}
+
+.active-button {
+  background-color: #e07a2f !important;
+  color: white !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  border-radius: 25px !important;
+  font-weight: 600;
+  border: 1px solid #e07a2f;
+}
+
+.categoryRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.categoryRow.checked {
+  background-color: #FBEBE3;
+}
+
+.categoryText {
+  margin-left: 10px;
+}
+
+.bookmarkButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.formGrid {
+  display: flex;
+  flex-direction: column;  // Stack forms vertically
+  margin-left: 20px;  // Indent forms to visually separate from category
+}
+
+.formItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;  // Space between form items
+  font-size: 14px; // Ensure text size is appropriate
+  color: #333;  // Text color for visibility
+}
+
+.formItem input {
+  margin-right: 10px;  // Space between checkbox and label
+}
+
+.formItem label {
+  font-size: 14px; // Ensuring form name has proper font size
+  color: #333;  // Make sure the text is visible
+}
+
+.customCheckbox {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.customCheckbox input[type="checkbox"] {
+  display: none;
+}
+
+.customCheckbox label {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border: 1px solid #d26300;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.customCheckbox input[type="checkbox"]:checked + label {
+  background-color: #d26300;
+  border-color: #d26300;
+  position: relative;
+}
+
+.customCheckbox input[type="checkbox"]:checked + label::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 4px;
+  width: 4px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.categoryRow {
+  margin-bottom: 10px;  // Space between categories
+}
+.customCheckboxInput {
+  accent-color: #d26300; /* This will change the checkbox color */
+}

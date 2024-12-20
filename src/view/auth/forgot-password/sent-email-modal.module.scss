@@ -1,0 +1,23 @@
+.sent__email-main-con {
+    padding: 48px 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 14px;
+    width: 440px;
+
+    .header__text {
+        font-weight: 500;
+        font-size: 28px;
+        color: #232529;
+    }
+
+    .desc__text {
+        font-weight: 400;
+        font-size: 14px;
+        color: #717171;
+        text-align: center;
+    }
+}

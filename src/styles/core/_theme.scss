@@ -1,0 +1,146 @@
+:root {
+    --navbar-height: 56px;
+    --navbar-z-index: 100000;
+}
+
+[data-theme='light'] {
+    --background-color: #FFFFFF;
+    --text-primary-color: #8E8EA9;
+    --active-color: #D26300;
+    --border-color: #EEEEF2;
+    --text-black-color: #09090B;
+    --text-dark-color: #232529;
+    --text-grey-100: #717171;
+    --text-white-color: #FFFFFF;
+    --divider-color: #EEEFF1;
+    --error-text-color: #DC2626;
+
+
+
+    //primary button
+    --button-primary: #D26300;
+    --button-primary-text: #FFFFFF;
+    --button-primary-pressed: #D26300;
+    --button-primary-hover: #D26300;
+    --button-primary-disabled: #EEEEF2;
+    --button-primary-text-disabled: #8E8EA9;
+
+    //seconday button
+    --button-secondary: #FFFFFF;
+    --button-secondary-text: #09090B;
+    --button-secondary-stroke: #EEEEF2;
+    --button-secondary-pressed: #F8F9FA;
+    --button-secondary-disabled: #F8F9FA;
+    --button-secondary-text-disabled: #8E8EA9;
+
+
+    //tertiary button
+    --button-tertiary: #FCECE7;
+    --button-tertiary-text: #D26300;
+    --button-tertiary-disabled: #EEEEF2;
+    --button-tertiary-text-disabled: #8E8EA9;
+    --button-tertiary-hover: #FCECE7;
+    --button-tertiary-pressed: #FCECE7;
+
+
+
+    //input box
+    --input-box-border: #EEEEF2;
+    --input-box-label-text-color: #717171;
+
+    //dropdown component
+    --hovered--list-item-bg-color: #FDF5F1;
+    --keyboard-selected-list-item-bg-color: #FBEBE3;
+    --hovered--list-item-text-color: #D26300;
+    --selected--list-item-bg-color: #FFFFFF;
+    --header-label-text-color: #5C5E63;
+
+
+    //switch
+    --switch-border-color: #EEEEF2;
+    --switch-background-color: #FFFFFF;
+    --switch-selected-bg-color: #D26300;
+    --switch-unselected-hover-color: #FBEBE3;
+
+
+    //toggle 
+    --toggle--bg-color-active: #D26300;
+    --toggle--bg-color-inactive: #E7E7E8;
+    --toggle-circle-color-active: #FFFFFF;
+    --toggle-circle-color-inactive: #D26300;
+    --toggle-bg-color-disabled: #FBEBE3;
+    --toggle-circle-bg-color-disabled: #FBEBE3;
+
+
+
+    //table
+    --table-border-color: #EEEEF2;
+
+
+
+
+    //chip
+    --chip-background-color: #FBEBE3;
+    --chip-text-color: #D26300;
+
+
+
+    //range slider
+    --range-slider-active-color: #D26300;
+    --range-slider-bg-color: #EEEEF2;
+    --range-slider-thumb-bg-color: #FCECE7;
+}
+
+[data-theme='dark'] {
+    --background-color: #202020;
+    --text-primary-color: #8E8EA9;
+    --active-color: #D26300;
+    --border-color: #EEEEF2;
+    --text-black-color: #09090B;
+    --text-grey-100: #717171;
+    --text-white-color: #FFFFFF;
+    --divider-color: #EEEFF1;
+
+
+
+    //primary button
+    --button-primary: #D26300;
+    --button-primary-text: #FFFFFF;
+    --button-primary-pressed: #D26300;
+    --button-primary-hover: #D26300;
+    --button-primary-disabled: #EEEEF2;
+    --button-primary-text-disabled: #8E8EA9;
+
+    //seconday button
+    --button-secondary: #FFFFFF;
+    --button-secondary-text: #09090B;
+    --button-secondary-stroke: #EEEEF2;
+    --button-secondary-pressed: #F8F9FA;
+    --button-primary-disabled: #F8F9FA;
+    --button-primary-text-disabled: #8E8EA9;
+
+
+    //search box
+    --search-box-border: #EEEEF2;
+
+
+    //dropdown component
+    --hovered--list-item-bg-color: #FBEBE3;
+    --hovered--list-item-text-color: #D26300;
+    --selected--list-item-bg-color: #FFFFFF;
+
+
+    //switch
+    --switch-border-color: #EEEEF2;
+    --switch-background-color: #FFFFFF;
+    --switch-selected-bg-color: #D26300;
+    --switch-unselected-hover-color: #FBEBE3;
+
+    //toggle 
+    --toggle--bg-color-active: #D26300;
+    --toggle--bg-color-inactive: grey;
+    --toggle-circle-color-active: #FFFFFF;
+    --toggle-circle-color-inactive: #D26300;
+    --toggle-bg-color-disabled: #FBEBE3;
+    --toggle-circle-bg-color-disabled: #FBEBE3;
+}

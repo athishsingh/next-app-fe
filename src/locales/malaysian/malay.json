@@ -1,0 +1,59 @@
+{
+  "signInLabels": {
+    "headerText": "Selamat kembali",
+    "emailInput": {
+      "label": "ID e-mel",
+      "placeholder": "Masukkan alamat e-mel kerja anda"
+    },
+    "passwordInput": {
+      "label": "Kata laluan",
+      "placeholder": "Masukkan kata laluan anda"
+    },
+    "forgotPasswordText": "Terlupa kata laluan",
+    "dontHaveAccount": "Tiada akaun?",
+    "signUp": "Daftar",
+    "welcomeHeaderText": "Selamat datang ke Nymble Up.",
+    "descriptionText": "Pada perhubungan AI dan perniagaan, kami mentakrifkan semula pengurusan tenaga kerja ramalan. Dengan lancar memautkan jualan dan kakitangan, platform kami memastikan kecekapan optimum dalam perancangan, penjadualan dan pengurusan tugas.",
+    "subheaderText": "Anda akan dapat menyesuaikan dan mencipta CRM anda tepat seperti yang anda inginkan.",
+    "finalText": "Mari kita mulakan."
+  },
+  "signUpLabels": {
+    "headerText": "daftar",
+    "emailInput": {
+      "label": "ID e-mel",
+      "placeholder": "Masukkan alamat e-mel kerja anda"
+    },
+    "alreadyHaveAccount": "Sudah mempunyai akaun?",
+    "loginText": "Log masuk",
+    "infoText": "Dengan memasukkan e-mel anda, anda mengesahkan anda bersetuju untuk menghubungi Nymbleup pada bila-bila masa mengenai cara kami menggunakan data dalam kami ",
+    "privacyPolicyText": "dasar privasi",
+    "welcomeHeaderText": "Selamat datang ke Nymble Up.",
+    "descriptionText": "Pada perhubungan AI dan perniagaan, kami mentakrifkan semula pengurusan tenaga kerja ramalan. Dengan lancar memautkan jualan dan kakitangan, platform kami memastikan kecekapan optimum dalam perancangan, penjadualan dan pengurusan tugas.",
+    "subheaderText": "Anda akan dapat menyesuaikan dan mencipta CRM anda tepat seperti yang anda inginkan.",
+    "finalText": "Mari kita mulakan."
+  },
+  "dynamicLabels": {
+    "Shift Manager": "Pengurus Syif",
+    "Hospitality Specialist": "Pakar Perhotelan",
+    "Banking": "Perbankan",
+    "MOD": "MOD",
+    "Break": "Rehat",
+    "Excess": "Lebihan",
+    "Store Manager": "Pengurus Kedai",
+    "Barista": "Barista",
+    "Admin": "Admin",
+    "Training": "Latihan",
+    "Cash Management": "Pengurusan Tunai",
+    "Inventory": "Inventori",
+    "Opening": "Pembukaan",
+    "Closing": "Penutup",
+    "Banking Management": "Pengurusan Perbankan",
+    "Banking Barista": "Barista Perbankan",
+    "BO": "BO",
+    "Promotional Activities": "Aktiviti Promosi",
+    "Total Cleaning": "Pembersihan Menyeluruh",
+    "Fixed Bussing": "Bussing Tetap"
+  },
+
+  "continue": "teruskan"
+}

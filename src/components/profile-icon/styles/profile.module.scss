@@ -1,0 +1,24 @@
+.profile__main-con {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    border: none;
+
+    .profile__icon {
+        border-radius: 100%;
+        object-fit: cover;
+    }
+
+    .profile__icon-dot {
+        width: 10px;
+        height: 10px;
+        background-color: #4CB782;
+        border-radius: 100%;
+        position: absolute;
+        bottom: 5px;
+        right: 0;
+    }
+}

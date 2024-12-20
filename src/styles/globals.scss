@@ -1,0 +1,42 @@
+@use './core/index' as *;
+
+@font-face {
+    font-family: "Geist";
+    src: url("/fonts/GeistVF.woff");
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+html,
+body {
+    font-family: 'Geist', sans-serif;
+    max-width: 100vw;
+    overflow-x: hidden;
+    overscroll-behavior: none;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-primary-color);
+    transition: background-color 0.5s ease-in, color 0.5s ease-in;
+    overscroll-behavior: none;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+button {
+    font-family: 'Geist', sans-serif;
+}
+
+::-moz-selection {
+    color: black;
+    background: #FFDDAE;
+}
+
+::selection {
+    color: black;
+    background: #FFDDAE;
+}

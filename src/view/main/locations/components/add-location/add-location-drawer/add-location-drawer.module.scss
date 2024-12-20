@@ -1,0 +1,11 @@
+.sections__main-con {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 14px 30px;
+    border-bottom: 1px solid var(--divider-color);
+}

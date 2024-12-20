@@ -1,0 +1,13 @@
+.manage-training-garph__main-con {
+    padding: 14px 60px;
+    width: 100%;
+    gap: 30px;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+
+
+    .sub__con {
+        flex: 1;
+        overflow: hidden;
+    }
+}

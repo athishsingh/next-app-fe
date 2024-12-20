@@ -1,0 +1,102 @@
+.training__assessment-main-con {
+    border: 1px solid var(--border-color);
+    width: 100%;
+    border-radius: 12px;
+
+    .header__con {
+        padding: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid var(--border-color);
+        background-color: #fff;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+
+        .assessment__name {
+            font-weight: 400;
+            font-size: 14px;
+            color: #09090B;
+        }
+    }
+
+    .score__info-con {
+        padding: 12px 14px;
+        background-color: #FCFCFC;
+        border-bottom: 1px solid var(--border-color);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .label__text {
+            font-weight: 400;
+            font-size: 12px;
+            color: #8E8EA9;
+        }
+
+        .value__text {
+            font-weight: 400;
+            font-size: 12px;
+            color: #717171;
+        }
+
+        .plus__icon {
+            padding: 2px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .add__question-text {
+                font-weight: 400;
+                font-size: 12px;
+                color: #8E8EA9;
+            }
+        }
+
+        .delete__all-text {
+            font-weight: 400;
+            font-size: 12px;
+            color: #D26300;
+        }
+    }
+
+    .no__question-text {
+        font-weight: 400;
+        font-size: 14px;
+        color: #8E8EA9;
+    }
+
+    .assessment__question-con {
+        padding: 20px 12px;
+        border-bottom: 1px solid var(--border-color);
+
+        .question__text {
+            font-weight: 400;
+            font-size: 14px;
+            color: #09090B;
+        }
+
+        &:last-child {
+            border-bottom: none;
+        }
+
+        .question__type-con {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            background-color: #FBF9FF;
+            padding: 6px;
+
+            .question__type {
+                font-weight: 400;
+                font-size: 12px;
+                color: #09090B;
+            }
+        }
+    }
+
+}

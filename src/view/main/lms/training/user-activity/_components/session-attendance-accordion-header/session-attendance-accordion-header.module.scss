@@ -1,0 +1,62 @@
+.session__accordion-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    .date_con {
+        border: 1px solid var(--border-color);
+        background-color: #fff;
+        padding: 6px 12px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .day {
+            font-weight: 400;
+            font-size: 10px;
+            color: #FF3B30;
+            line-height: 12px;
+            text-transform: uppercase;
+        }
+
+        .date {
+            font-weight: 400;
+            font-size: 16px;
+            color: #09090B;
+            line-height: 24px;
+        }
+    }
+
+    .session__name {
+        font-size: 16px;
+        font-weight: 400;
+        color: #09090B;
+    }
+
+    .attended__count {
+        font-weight: 400;
+        font-size: 14px;
+        color: #717171;
+    }
+
+    .live__main-con {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+
+        .dot__green {
+            width: 4px;
+            height: 4px;
+            background-color: #34C759;
+            border-radius: 100%;
+        }
+
+        .live {
+            font-weight: 400;
+            color: #34C759;
+            font-size: 14px;
+        }
+    }
+}

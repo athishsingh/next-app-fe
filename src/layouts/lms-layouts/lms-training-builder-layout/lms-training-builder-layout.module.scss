@@ -1,0 +1,42 @@
+.course__name-text {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--text-black-color);
+}
+
+.dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+
+    &.live {
+        background-color: #34C759;
+    }
+
+    &.completed {
+        background-color: #717171;
+    }
+
+    &.upcoming {
+        background-color: #D26300;
+    }
+
+}
+
+.status__text {
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+
+    &.live {
+        color: #34C759;
+    }
+
+    &.completed {
+        color: #717171;
+    }
+
+    &.upcoming {
+        color: #D26300;
+    }
+}

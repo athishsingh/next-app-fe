@@ -1,0 +1,76 @@
+.onboarding__1-main-con {
+    display: flex;
+    height: 100%;
+
+    .left__component-container {
+        flex: 1;
+        width: 100%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        overflow-x: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        display: flex;
+        padding: 60px 20px;
+        margin: 0px auto;
+        flex-direction: column;
+
+        .left__main-component {
+            width: 100%;
+            max-width: 372px;
+            margin: 0px auto;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: space-between;
+            gap: 32px;
+
+            .page__count-text {
+                font-weight: 500;
+                font-size: 12px;
+                color: #717171;
+            }
+
+            .title__text {
+                margin-top: 4px;
+                font-weight: 600;
+                font-size: 20px;
+                color: #232529;
+            }
+
+            .subscrible__text {
+                font-weight: 500;
+                font-size: 12px;
+                color: #232529;
+            }
+
+            .subscribe__desc-text {
+                color: #5C5E63;
+                font-weight: 500;
+                font-size: 10px;
+            }
+
+            .country__dropdown-select-container {
+                height: 36px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                gap: 6px;
+                margin-right: 4px;
+                font-weight: 400;
+                font-size: 14px;
+                color: #232529;
+            }
+        }
+    }
+
+    .right__component-container {
+        flex: 1;
+        width: 100%;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background: url('/images/onboarding1.svg') no-repeat top left;
+        background-size: cover;
+    }
+}

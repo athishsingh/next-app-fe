@@ -1,0 +1,11 @@
+.location__address-main-con {
+    display: flex;
+    align-self: flex-start;
+    gap: 6px;
+
+    .location__address-text {
+        font-weight: 400;
+        font-size: 12px;
+        color: var(--text-black-color);
+    }
+}

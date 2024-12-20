@@ -1,0 +1,85 @@
+.signin__main-container {
+    display: flex;
+    height: 100%;
+
+    .sigin__left-container {
+        flex: 1;
+        width: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        overflow-x: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 60px 20px 30px 20px;
+        margin: 0px auto;
+
+        .left__main-con {
+            width: 100%;
+            max-width: 372px;
+            margin: 0px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+
+            .welcome__text {
+                font-weight: 600;
+                font-size: 24px;
+                color: var(--text-dark-color);
+                line-height: 28px;
+            }
+
+            .forgot__password-link {
+                color: var(--text-grey-100);
+                font-weight: 500;
+                font-size: 12px;
+                width: max-content;
+            }
+
+            .sign__up-text {
+                font-weight: 400;
+                font-size: 14px;
+                color: #9FA1A7;
+                text-align: center;
+            }
+
+            .h__link {
+                font-weight: 500;
+                font-size: 14px;
+                color: var(--active-color);
+            }
+        }
+    }
+
+    .signin__right-container {
+        flex: 1;
+        width: 100%;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        overflow-x: scroll;
+        padding: 60px 20px 60px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        .header__text {
+            line-height: 28px;
+            font-weight: 600;
+            font-size: 24px;
+            color: #232529;
+        }
+
+        .description__text {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 400px;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            color: #5C5E63;
+        }
+    }
+}

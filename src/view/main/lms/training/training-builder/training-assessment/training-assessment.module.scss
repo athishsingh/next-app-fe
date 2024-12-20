@@ -1,0 +1,42 @@
+.training__assessment-main-container {
+    background-color: white;
+    height: calc(100vh - 178px);
+    display: flex;
+
+    .assessment__sideabar-main-con {
+        width: 350px;
+        height: 100%;
+        overflow: scroll;
+        border-right: 1px solid var(--border-color);
+        padding-bottom: 20px;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        &.hidden {
+            display: none;
+        }
+    }
+
+    .children__main-con {
+        height: 100%;
+        overflow: scroll;
+        width: 100%;
+        padding: 24px;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        .children__con {
+            margin: 0px auto;
+            min-width: 600px;
+            max-width: 800px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+        }
+    }
+}

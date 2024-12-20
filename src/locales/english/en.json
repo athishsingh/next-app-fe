@@ -1,0 +1,58 @@
+{
+  "signInLabels": {
+    "headerText": "Welcome back",
+    "emailInput": {
+      "label": "Email ID",
+      "placeholder": "Enter your work email address"
+    },
+    "passwordInput": {
+      "label": "Password",
+      "placeholder": "Enter your password"
+    },
+    "forgotPasswordText": "Forgot password",
+    "dontHaveAccount": "Don't have an account?",
+    "signUp": "Signup",
+    "welcomeHeaderText": "Welcome to Nymble Up.",
+    "descriptionText": "At the nexus of AI and business, we redefine predictive workforce management. Seamlessly linking sales and staffing, our platform ensures optimal efficiency in planning, scheduling, and task management.",
+    "subheaderText": "You'll be able to customise and create your CRM exactly as you want it.",
+    "finalText": "Let's begin."
+  },
+  "signUpLabels": {
+    "headerText": "Sign up",
+    "emailInput": {
+      "label": "Email ID",
+      "placeholder": "Enter your work email address"
+    },
+    "alreadyHaveAccount": "Already have an account?",
+    "loginText": "Login",
+    "infoText": "By inserting your email you confirm you agree to Nymbleup contacting at any time by about how we use data in our ",
+    "privacyPolicyText": "privacy policy",
+    "welcomeHeaderText": "Welcome to Nymble Up.",
+    "descriptionText": "At the nexus of AI and business, we redefine predictive workforce management. Seamlessly linking sales and staffing, our platform ensures optimal efficiency in planning, scheduling, and task management.",
+    "subheaderText": "You'll be able to customise and create your CRM exactly as you want it.",
+    "finalText": "Let's begin."
+  },
+  "continue": "Continue",
+  "dynamicLabels": {
+    "Shift Manager": "Shift Manager",
+    "Hospitality Specialist": "Hospitality Specialist",
+    "Banking": "Banking",
+    "MOD": "MOD",
+    "Break": "Break",
+    "Excess": "Excess",
+    "Store Manager": "Store Manager",
+    "Barista": "Barista",
+    "Admin": "Admin",
+    "Training": "Training",
+    "Cash Management": "Cash Management",
+    "Inventory": "Inventory",
+    "Opening": "Opening",
+    "Closing": "Closing",
+    "Banking Management": "Banking Management",
+    "Banking Barista": "Banking Barista",
+    "BO": "BO",
+    "Promotional Activities": "Promotional Activities",
+    "Total Cleaning": "Total Cleaning",
+    "Fixed Bussing": "Fixed Bussing"
+  }
+}

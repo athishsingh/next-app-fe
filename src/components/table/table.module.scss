@@ -1,0 +1,35 @@
+.table__main-con {
+    display: flex;
+    flex-direction: column;
+
+    .header__main-con {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        padding: 14px 60px;
+        background-color: var(--header-bg-color); // Customize as needed
+        font-weight: bold;
+        border-bottom: 1px solid var(--table-border-color);
+        overflow: hidden;
+
+        .header__cell {
+            font-weight: 500;
+            font-size: 12px;
+            color: #717171;
+        }
+    }
+
+    .row__main-con {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid var(--table-border-color);
+        padding: 14px 60px;
+
+        .row__cells-parent-con {
+            overflow: hidden;
+            display: flex;
+            gap: 30px;
+        }
+    }
+}

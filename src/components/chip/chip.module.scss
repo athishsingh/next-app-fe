@@ -1,0 +1,10 @@
+.chip__main-con {
+    padding: 4px 12px;
+    width: max-content;
+    border-radius: 20px;
+    background-color: var(--chip-background-color);
+    color: var(--chip-text-color);
+    font-weight: 400;
+    user-select: none;
+    font-size: 14px;
+}

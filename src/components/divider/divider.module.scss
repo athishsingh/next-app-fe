@@ -1,0 +1,12 @@
+.divider-vertical {
+    height: 100%;
+    width: var(--height);
+    background: var(--divider-color);
+}
+
+.divider-horizontal {
+    height: var(--height);
+    width: 100%;
+    background: var(--divider-color);
+    margin: 4px 0;
+}
